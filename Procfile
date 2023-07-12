@@ -1,1 +1,1 @@
-web: cp .env.example .env && php artisan key:generate && heroku-php-apache2
+NIXPACKS_BUILD_CMD=composer install && php artisan optimize && php artisan route:cache && php artisan view:cache && php artisan migrate --force

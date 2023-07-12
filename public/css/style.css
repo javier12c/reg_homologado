@@ -1,0 +1,67 @@
+.chart-container {
+    position: relative;
+    height: 400px;
+    min-width: 0;
+}
+.chart-bar {
+    flex: 1;
+    background-color: rgb(75, 192, 192);
+    transition: height 0.3s;
+}
+.chart-pastel {
+    width: 100%; /* Ajustar ancho al 100% */
+    height: 100%; /* Ajustar altura al 100% */
+}
+.bg-footer {
+    background-color: #262727;
+}
+.bg-header {
+    background-color: #9f2241;
+}
+.boton-hover:hover {
+    background-color: rgb(159, 34, 65, 0.7);
+}
+.bg-login {
+    background-color: rgba(152, 152, 154, 0.17);
+}
+.text-color-login {
+    color: #bc955c;
+}
+.text-usuario-letra {
+    color: #9f2241;
+}
+.text-color-hover:hover {
+    color: rgba(188, 149, 92, 0.6);
+}
+.text-color-hover1:hover {
+    background-color: rgba(206, 148, 61, 0.6);
+}
+
+.bg-boton {
+    background-color: rgba(188, 149, 92);
+}
+.bg-boton2 {
+    background-color: rgba(221, 201, 163, 1);
+}
+.text-color-iconos {
+    color: #9f2241;
+}
+.border-form {
+    border-color: rgba(159, 34, 65, 0.6);
+}
+.c2 {
+    width: 95%;
+}
+.bg-empleado-boton {
+    background-color: #ddc9a3;
+
+    &.bg-empleado-hover:hover {
+        background-color: #f3d397;
+    }
+}
+.bg-formulario {
+    background-color: #cdbb7c;
+}
+.focus-invisible {
+    outline-color: #9f2241;
+}
